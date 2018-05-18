@@ -1,0 +1,87 @@
+* {
+    transition: all .1s ease-in;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+}
+
+.one {
+    background-color: #494e55;
+    text-align: center;
+    color: #dc706c;
+    margin: 20px 20px 0;
+    padding: 10px;
+}
+
+.one p {
+    margin-top: 0;
+    font-size: 25px;
+}
+
+.one + div {
+    background-color: #383d43;
+    margin: 0 20px 20px;
+    padding: 10px 10px 140px;
+}
+
+.three:first-child {
+    margin-top: 30px;
+}
+
+ .three div {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #89849f;
+    padding: 15px 60px 25px 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.three div:nth-child(2n) {
+    background-color: #7b7694;
+}
+
+[id] {
+    height: 25px;
+    width: 25px;
+}
+
+ .three div:hover {
+     background-color: #625e78;
+     border-top: 4px solid #fff;
+     border-bottom: 4px solid #fff;
+ }
+
+.three div:active {
+    background-color: #dc706c;
+}
+
+input[type=checkbox]:checked + label {
+    text-decoration: line-through;
+}
+
+.two p {
+    color: #dc706c;
+    text-align: center;
+    background-color: #494e55;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 20px 15px;
+}
+
+span {
+    font-size: 18px;
+}
+span:before {
+    content: "(";
+}
+span:after {
+    content: ")";
+}
+
