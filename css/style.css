@@ -4,7 +4,8 @@
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 15px;
+    background-color: #fff;
     font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
 }
 
@@ -12,7 +13,7 @@ body {
     background-color: #494e55;
     text-align: center;
     color: #dc706c;
-    margin: 20px 20px 0;
+    margin: 0;
     padding: 10px;
 }
 
@@ -21,9 +22,8 @@ body {
     font-size: 25px;
 }
 
-.one + div {
+.two {
     background-color: #383d43;
-    margin: 0 20px 20px;
     padding: 10px 10px 140px;
 }
 
@@ -64,7 +64,7 @@ input[type=checkbox]:checked + label {
     text-decoration: line-through;
 }
 
-.two p {
+.three + div {
     color: #dc706c;
     text-align: center;
     background-color: #494e55;
