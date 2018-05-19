@@ -41,11 +41,15 @@ body {
     font-size: 30px;
 }
 
+input[type=checkbox]:checked + span {
+    text-decoration: line-through;
+}
+
 .three div:nth-child(2n) {
     background-color: #7b7694;
 }
 
-[id] {
+ input {
     height: 25px;
     width: 25px;
 }
@@ -60,8 +64,8 @@ body {
     background-color: #dc706c;
 }
 
-input[type=checkbox]:checked + label {
-    text-decoration: line-through;
+label {
+    display: block;
 }
 
 .three + div {
@@ -76,13 +80,12 @@ input[type=checkbox]:checked + label {
     padding: 2px 15px;
 }
 
-span {
-    font-size: 18px;
+.little {
+    font-size: 18px;*/
 }
-span:before {
+.little:before {
     content: "(";
-}
-span:after {
+}.little:after {
     content: ")";
 }
 
